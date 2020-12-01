@@ -1,0 +1,119 @@
+body {
+  background-color: #ffcc00;
+}
+.container {
+  background: #ffffff;
+  margin-top: 50px;
+}
+.circle {
+  background: #ffcc00;
+  border-radius: 50%;
+  height: 450px;
+  width: 480px;
+  margin-top: -80px;
+  margin-left: -80px;
+  position: relative;
+}
+.arrow-down {
+  width: 200px;
+  height: 200px;
+  margin-left: 160px;
+  transform: skew(20deg);
+  background: #ffcc00;
+  margin-top: -210px;
+}
+.title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #000;
+  font-size: 26px;
+  margin-top: 10px;
+  background: transparent;
+  padding: 50px;
+  font-family: "Suez One", serif;
+  text-transform: uppercase;
+  margin-left: 80px;
+}
+.bottom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #000;
+  font-size: 18px;
+  margin-top: 70px;
+  background: transparent;
+  padding: 50px;
+  text-transform: uppercase;
+  margin-left: 80px;
+}
+
+.feature {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: red;
+  font-size: 13px;
+  margin-top: 100px;
+  background: transparent;
+  padding: 50px;
+  text-transform: uppercase;
+  margin-left: 80px;
+}
+.for {
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #000;
+  font-size: 25px;
+  margin-top: 230px;
+  background: transparent;
+  padding: 50px;
+  margin-left: 180px;
+}
+.website {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  background-color: #000;
+  font-size: 15px;
+  margin-top: 320px;
+  padding: 10px;
+  margin-left: 160px;
+  border-radius: 50px;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 140px;
+  margin-top: 60px;
+  margin-right: 120px;
+}
+.icon {
+  color: #538bea;
+  font-size: 30px;
+}
+span {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+.students {
+  margin-top: -100px;
+  height: 300px;
+  margin-left: -200px;
+}
+.mainmobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .main {
+    display: none;
+  }
+  .mainmobile {
+    display: block;
+  }
+}
